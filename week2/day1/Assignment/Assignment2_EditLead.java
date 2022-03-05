@@ -1,5 +1,7 @@
 package week2.day1.Assignment;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
@@ -14,6 +16,7 @@ public class Assignment2_EditLead {
 		ChromeDriver driver=new ChromeDriver(); 
 		driver.get("http://leaftaps.com/opentaps/control/login");
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		//Login page Navigation steps
 		//User name
 		driver.findElement(By.id("username")).sendKeys("Demosalesmanager");
@@ -24,23 +27,7 @@ public class Assignment2_EditLead {
 		System.out.println("Logged in successfully");
 		driver.findElement(By.linkText("CRM/SFA")).click();
 		System.out.println("TestLeaf Home page loaded successfully");
-		
-		
-		if(driver.findElement(By.xpath("//*[text()='Opentaps CRMSFA Login']")).isDisplayed())
-		{
-		//Opentaps CRMSFA Login
-		//User name
-		
-		
-		driver.findElement(By.name("USERNAME")).sendKeys("Demosalesmanager");
-		//Password
-		driver.findElement(By.name("PASSWORD")).sendKeys("crmsfa");
-		//Click Login button
-		driver.findElement(By.className("loginButton")).click();
-		//Test Leaf Home page loaded
-		}else System.out.println("//Opentaps CRMSFA Login does not exist");
-		
-		
+				
 		driver.findElement(By.linkText("Create Lead")).click();
 		System.out.println("Create Lead page loaded successfully");
 
