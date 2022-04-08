@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-06T20:37:27 PDT" name="Suite" finished-at="2022-04-06T20:40:49 PDT" duration-ms="202310">
+    <groups>
+    </groups>
+    <test started-at="2022-04-06T20:37:27 PDT" name="Test" finished-at="2022-04-06T20:40:49 PDT" duration-ms="202310">
+      <class name="Com.Testleaf.UI.Test.TC004_DeleteLead">
+        <test-method is-config="true" signature="setData()[pri:0, instance:Com.Testleaf.UI.Test.TC004_DeleteLead@11392934]" started-at="2022-04-06T20:37:27 PDT" name="setData" finished-at="2022-04-06T20:37:27 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:Com.Testleaf.UI.Test.TC004_DeleteLead@11392934]" started-at="2022-04-06T20:39:22 PDT" name="preCondition" finished-at="2022-04-06T20:39:40 PDT" duration-ms="17260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="Run_DeleteLead(java.lang.String,java.lang.String)[pri:0, instance:Com.Testleaf.UI.Test.TC004_DeleteLead@11392934]" started-at="2022-04-06T20:39:40 PDT" name="Run_DeleteLead" data-provider="fetchData" finished-at="2022-04-06T20:40:27 PDT" duration-ms="47692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Run_DeleteLead -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:Com.Testleaf.UI.Test.TC004_DeleteLead@11392934]" started-at="2022-04-06T20:40:27 PDT" name="postCondition" finished-at="2022-04-06T20:40:43 PDT" duration-ms="15846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- Com.Testleaf.UI.Test.TC004_DeleteLead -->
+      <class name="Com.Testleaf.UI.Test.TC003_DuplicateLead">
+        <test-method is-config="true" signature="setData()[pri:0, instance:Com.Testleaf.UI.Test.TC003_DuplicateLead@2a265ea9]" started-at="2022-04-06T20:37:27 PDT" name="setData" finished-at="2022-04-06T20:37:27 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:Com.Testleaf.UI.Test.TC003_DuplicateLead@2a265ea9]" started-at="2022-04-06T20:39:12 PDT" name="preCondition" finished-at="2022-04-06T20:39:30 PDT" duration-ms="18556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="Run_DuplicateLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Com.Testleaf.UI.Test.TC003_DuplicateLead@2a265ea9]" started-at="2022-04-06T20:39:30 PDT" name="Run_DuplicateLead" data-provider="fetchData" finished-at="2022-04-06T20:40:47 PDT" duration-ms="76305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CTS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nishok]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Iyer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Nishok]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Administration]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Business administration to build your skills and advance your career. Learn business administration from top universities and institutions around the world]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[First@simba.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Run_DuplicateLead -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:Com.Testleaf.UI.Test.TC003_DuplicateLead@2a265ea9]" started-at="2022-04-06T20:40:47 PDT" name="postCondition" finished-at="2022-04-06T20:40:49 PDT" duration-ms="2703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- Com.Testleaf.UI.Test.TC003_DuplicateLead -->
+      <class name="Com.Testleaf.UI.Test.TC002_EditLead">
+        <test-method is-config="true" signature="setData()[pri:0, instance:Com.Testleaf.UI.Test.TC002_EditLead@6d4d66d2]" started-at="2022-04-06T20:37:27 PDT" name="setData" finished-at="2022-04-06T20:37:27 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:Com.Testleaf.UI.Test.TC002_EditLead@6d4d66d2]" started-at="2022-04-06T20:37:32 PDT" name="preCondition" finished-at="2022-04-06T20:38:04 PDT" duration-ms="31715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="Run_EditLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Com.Testleaf.UI.Test.TC002_EditLead@6d4d66d2]" started-at="2022-04-06T20:38:04 PDT" name="Run_EditLead" data-provider="fetchData" finished-at="2022-04-06T20:39:08 PDT" duration-ms="64620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CTS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nishok]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Iyer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Nishok]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Administration]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Business administration to build your skills and advance your career. Learn business administration from top universities and institutions around the world]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[First@simba.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Run_EditLead -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:Com.Testleaf.UI.Test.TC002_EditLead@6d4d66d2]" started-at="2022-04-06T20:39:08 PDT" name="postCondition" finished-at="2022-04-06T20:39:11 PDT" duration-ms="2779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- Com.Testleaf.UI.Test.TC002_EditLead -->
+      <class name="Com.Testleaf.UI.Test.TC001_CreateLead">
+        <test-method is-config="true" signature="setData()[pri:0, instance:Com.Testleaf.UI.Test.TC001_CreateLead@46cdf8bd]" started-at="2022-04-06T20:37:27 PDT" name="setData" finished-at="2022-04-06T20:37:27 PDT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:Com.Testleaf.UI.Test.TC001_CreateLead@46cdf8bd]" started-at="2022-04-06T20:37:32 PDT" name="preCondition" finished-at="2022-04-06T20:38:03 PDT" duration-ms="31482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="Run_CreateLead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Com.Testleaf.UI.Test.TC001_CreateLead@46cdf8bd]" started-at="2022-04-06T20:38:03 PDT" name="Run_CreateLead" data-provider="fetchData" finished-at="2022-04-06T20:39:01 PDT" duration-ms="57802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CTS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nishok]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Iyer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Nishok]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Administration]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Business administration to build your skills and advance your career. Learn business administration from top universities and institutions around the world]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[First@simba.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Run_CreateLead -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:Com.Testleaf.UI.Test.TC001_CreateLead@46cdf8bd]" started-at="2022-04-06T20:39:01 PDT" name="postCondition" finished-at="2022-04-06T20:39:21 PDT" duration-ms="20153" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Timed out waiting for driver server to stop.
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-H8300NBV', ip: '10.204.0.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [170d0b7572a4a4dd943f87ad8fa74e4a, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\nisho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60296}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60296/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 170d0b7572a4a4dd943f87ad8fa74e4a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-H8300NBV', ip: '10.204.0.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [170d0b7572a4a4dd943f87ad8fa74e4a, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\nisho\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60296}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60296/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 170d0b7572a4a4dd943f87ad8fa74e4a
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:129)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:455)
+at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:287)
+at base.ProjectSpecificationMethod.postCondition(ProjectSpecificationMethod.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:772)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:748)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-H8300NBV', ip: '10.204.0.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: unknown
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:125)
+... 26 more
+Caused by: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-H8300NBV', ip: '10.204.0.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: unknown
+at org.openqa.selenium.os.OsProcess.waitFor(OsProcess.java:174)
+at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:127)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$2(DriverCommandExecutor.java:119)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+... 3 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- Com.Testleaf.UI.Test.TC001_CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
